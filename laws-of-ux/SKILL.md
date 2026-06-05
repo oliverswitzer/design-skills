@@ -2,7 +2,7 @@
 name: laws-of-ux
 description: Use when designing, reviewing, or critiquing user interfaces. A complete reference to all 30 Laws of UX — psychological principles and cognitive biases that govern how users perceive, process, and interact with interfaces. Each law includes a summary and when-to-use triggers. Load individual law references for full detail, examples, and design implications.
 version: 1.0.0
-author: Hermes Agent
+author: Oliver Switzer
 license: MIT
 source: https://lawsofux.com/
 metadata:
