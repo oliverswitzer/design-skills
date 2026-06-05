@@ -1,3 +1,11 @@
+---
+slug: peak-end-rule
+tags:
+  primary: user-research
+  secondary: motivation
+source: https://lawsofux.com/peak-end-rule/
+---
+
 # Peak-End Rule
 
 > People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.

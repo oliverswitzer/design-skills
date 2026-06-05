@@ -1,3 +1,11 @@
+---
+slug: parkinsons-law
+tags:
+  primary: interaction-design
+  secondary: motivation
+source: https://lawsofux.com/parkinsons-law/
+---
+
 # Parkinson's Law
 
 > Any task will inflate until all of the available time is spent.

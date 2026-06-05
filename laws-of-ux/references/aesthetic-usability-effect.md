@@ -1,3 +1,11 @@
+---
+slug: aesthetic-usability-effect
+tags:
+  primary: screen-review
+  secondary: user-research
+source: https://lawsofux.com/aesthetic-usability-effect/
+---
+
 # Aesthetic-Usability Effect
 
 > Users often perceive aesthetically pleasing design as design that’s more usable.

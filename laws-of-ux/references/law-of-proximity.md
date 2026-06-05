@@ -1,3 +1,11 @@
+---
+slug: law-of-proximity
+tags:
+  primary: visual-hierarchy
+  secondary: screen-review
+source: https://lawsofux.com/law-of-proximity/
+---
+
 # Law of Proximity
 
 > Objects that are near, or proximate to each other, tend to be grouped together.

@@ -1,3 +1,11 @@
+---
+slug: serial-position-effect
+tags:
+  primary: information-architecture
+  secondary: screen-review
+source: https://lawsofux.com/serial-position-effect/
+---
+
 # Serial Position Effect
 
 > Users have a propensity to best remember the first and last items in a series.

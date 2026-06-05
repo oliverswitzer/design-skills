@@ -1,3 +1,11 @@
+---
+slug: law-of-similarity
+tags:
+  primary: visual-hierarchy
+  secondary: screen-review
+source: https://lawsofux.com/law-of-similarity/
+---
+
 # Law of Similarity
 
 > The human eye tends to perceive similar elements as a complete picture, shape, or group, even if those elements are separated.

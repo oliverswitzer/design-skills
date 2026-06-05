@@ -1,3 +1,11 @@
+---
+slug: choice-overload
+tags:
+  primary: decision-making
+  secondary: information-architecture
+source: https://lawsofux.com/choice-overload/
+---
+
 # Choice Overload
 
 > The tendency for people to get overwhelmed when they are presented with a large number of options, often used interchangeably with the term paradox of choice.

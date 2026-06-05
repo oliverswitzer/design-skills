@@ -1,3 +1,11 @@
+---
+slug: hicks-law
+tags:
+  primary: decision-making
+  secondary: information-architecture
+source: https://lawsofux.com/hicks-law/
+---
+
 # Hick's Law
 
 > The time it takes to make a decision increases with the number and complexity of choices.

@@ -1,3 +1,11 @@
+---
+slug: law-of-uniform-connectedness
+tags:
+  primary: visual-hierarchy
+  secondary: screen-review
+source: https://lawsofux.com/law-of-uniform-connectedness/
+---
+
 # Law of Uniform Connectedness
 
 > Elements that are visually connected are perceived as more related than elements with no connection.

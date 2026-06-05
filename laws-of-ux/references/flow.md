@@ -1,3 +1,11 @@
+---
+slug: flow
+tags:
+  primary: interaction-design
+  secondary: motivation
+source: https://lawsofux.com/flow/
+---
+
 # Flow
 
 > The mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.

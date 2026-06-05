@@ -1,3 +1,11 @@
+---
+slug: working-memory
+tags:
+  primary: interaction-design
+  secondary: screen-review
+source: https://lawsofux.com/working-memory/
+---
+
 # Working Memory
 
 > A cognitive system that temporarily holds and manipulates information needed to complete tasks.

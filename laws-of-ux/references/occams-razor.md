@@ -1,3 +1,11 @@
+---
+slug: occams-razor
+tags:
+  primary: screen-review
+  secondary: decision-making
+source: https://lawsofux.com/occams-razor/
+---
+
 # Occam's Razor
 
 > Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected.

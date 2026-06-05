@@ -1,3 +1,11 @@
+---
+slug: mental-model
+tags:
+  primary: user-research
+  secondary: information-architecture
+source: https://lawsofux.com/mental-model/
+---
+
 # Mental Model
 
 > A compressed model based on what we think we know about a system and how it works.

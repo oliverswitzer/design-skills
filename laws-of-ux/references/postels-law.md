@@ -1,3 +1,11 @@
+---
+slug: postels-law
+tags:
+  primary: interaction-design
+  secondary: screen-review
+source: https://lawsofux.com/postels-law/
+---
+
 # Postel's Law
 
 > Be liberal in what you accept, and conservative in what you send.

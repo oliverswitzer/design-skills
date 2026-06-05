@@ -1,3 +1,11 @@
+---
+slug: law-of-pragnanz
+tags:
+  primary: visual-hierarchy
+  secondary: screen-review
+source: https://lawsofux.com/law-of-pragnanz/
+---
+
 # Law of Prägnanz
 
 > People will perceive and interpret ambiguous or complex images as the simplest form possible, because it is the interpretation that requires the least cognitive effort of us.

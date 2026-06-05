@@ -1,3 +1,11 @@
+---
+slug: paradox-of-the-active-user
+tags:
+  primary: onboarding
+  secondary: user-research
+source: https://lawsofux.com/paradox-of-the-active-user/
+---
+
 # Paradox of the Active User
 
 > Users never read manuals but start using the software immediately.

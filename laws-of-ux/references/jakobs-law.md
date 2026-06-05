@@ -1,3 +1,11 @@
+---
+slug: jakobs-law
+tags:
+  primary: information-architecture
+  secondary: user-research
+source: https://lawsofux.com/jakobs-law/
+---
+
 # Jakob's Law
 
 > Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.

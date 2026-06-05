@@ -1,7 +1,7 @@
 ---
 name: laws-of-ux
-description: Use when designing, reviewing, or critiquing user interfaces. A complete reference to all 30 Laws of UX — psychological principles and cognitive biases that govern how users perceive, process, and interact with interfaces. Each law includes a summary and when-to-use triggers. Load individual law references for full detail, examples, and design implications.
-version: 1.0.0
+description: Use when designing, reviewing, or critiquing user interfaces. A complete reference to all 30 Laws of UX — psychological principles and cognitive biases that govern how users perceive, process, and interact with interfaces. Each law includes a tagline, workflow tags, and when-to-use triggers. Load individual law references for full detail, examples, and design implications.
+version: 1.1.0
 author: Oliver Switzer
 license: MIT
 source: https://lawsofux.com/
@@ -17,11 +17,28 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 
 ## How to Use This Skill
 
-**Quick reference:** The index below gives you every law's tagline and three "when to use" triggers. Scan it to identify which law(s) apply to your current design problem.
+**Quick reference:** The index below gives you every law's tagline, workflow tags, and three "when to use" triggers. Scan it to identify which law(s) apply to your current design problem.
 
 **Deep dive:** For full detail on any law — overview, key takeaways, origins, and design implications — load the corresponding reference file:
 - **Hermes agents:** `skill_view(name='laws-of-ux', file_path='references/<slug>.md')`
-- **Claude agents / any agent:** Read the file at `references/<slug>.md` relative to this skill directory, or find it at `laws-of-ux/references/<slug>.md` in the repo.
+- **Claude agents / any agent:** Read `laws-of-ux/references/<slug>.md` from this repo.
+
+---
+
+## Tag Taxonomy
+
+Each law has one **primary** tag and one **secondary** tag indicating the design workflow context where it is most useful.
+
+| Tag | When to reach for it |
+|-----|----------------------|
+| `screen-review` | Critiquing a static mockup or live UI for layout, usability, or visual issues |
+| `visual-hierarchy` | Making layout, attention, gestalt, or visual weight decisions |
+| `interaction-design` | Designing flows, input handling, responsiveness, or transitions |
+| `information-architecture` | Structuring nav, content grouping, labeling, or hierarchy |
+| `user-research` | Running interviews, usability tests, or interpreting behavioral findings |
+| `onboarding` | Designing first-run experiences, learning curves, or progressive disclosure |
+| `motivation` | Driving engagement, retention, habit loops, or progress mechanics |
+| `decision-making` | Helping users choose between options or reducing cognitive friction at choice points |
 
 ---
 
@@ -30,6 +47,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Aesthetic-Usability Effect
 > Users often perceive aesthetically pleasing design as design that’s more usable.
 
+**Tags:** `screen-review` · `user-research`  
 **Reference:** `references/aesthetic-usability-effect.md`
 
 **Use when:**
@@ -40,6 +58,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Choice Overload
 > The tendency for people to get overwhelmed when they are presented with a large number of options, often used interchangeably with the term paradox of choice.
 
+**Tags:** `decision-making` · `information-architecture`  
 **Reference:** `references/choice-overload.md`
 
 **Use when:**
@@ -50,6 +69,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Chunking
 > A process by which individual pieces of an information set are broken down and then grouped together in a meaningful whole.
 
+**Tags:** `information-architecture` · `screen-review`  
 **Reference:** `references/chunking.md`
 
 **Use when:**
@@ -60,6 +80,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Cognitive Bias
 > A systematic error of thinking or rationality in judgment that influence our perception of the world and our decision-making ability.
 
+**Tags:** `user-research` · `decision-making`  
 **Reference:** `references/cognitive-bias.md`
 
 **Use when:**
@@ -70,6 +91,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Cognitive Load
 > The amount of mental resources needed to understand and interact with an interface.
 
+**Tags:** `screen-review` · `interaction-design`  
 **Reference:** `references/cognitive-load.md`
 
 **Use when:**
@@ -80,6 +102,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Doherty Threshold
 > Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other.
 
+**Tags:** `interaction-design` · `screen-review`  
 **Reference:** `references/doherty-threshold.md`
 
 **Use when:**
@@ -90,6 +113,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Fitts's Law
 > The time to acquire a target is a function of the distance to and size of the target.
 
+**Tags:** `screen-review` · `interaction-design`  
 **Reference:** `references/fitts-law.md`
 
 **Use when:**
@@ -100,6 +124,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Flow
 > The mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.
 
+**Tags:** `interaction-design` · `motivation`  
 **Reference:** `references/flow.md`
 
 **Use when:**
@@ -110,6 +135,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Goal-Gradient Effect
 > The tendency to approach a goal increases with proximity to the goal.
 
+**Tags:** `motivation` · `onboarding`  
 **Reference:** `references/goal-gradient-effect.md`
 
 **Use when:**
@@ -120,6 +146,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Hick's Law
 > The time it takes to make a decision increases with the number and complexity of choices.
 
+**Tags:** `decision-making` · `information-architecture`  
 **Reference:** `references/hicks-law.md`
 
 **Use when:**
@@ -130,6 +157,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Jakob's Law
 > Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.
 
+**Tags:** `information-architecture` · `user-research`  
 **Reference:** `references/jakobs-law.md`
 
 **Use when:**
@@ -140,6 +168,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Law of Common Region
 > Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.
 
+**Tags:** `visual-hierarchy` · `screen-review`  
 **Reference:** `references/law-of-common-region.md`
 
 **Use when:**
@@ -150,6 +179,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Law of Proximity
 > Objects that are near, or proximate to each other, tend to be grouped together.
 
+**Tags:** `visual-hierarchy` · `screen-review`  
 **Reference:** `references/law-of-proximity.md`
 
 **Use when:**
@@ -160,6 +190,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Law of Prägnanz
 > People will perceive and interpret ambiguous or complex images as the simplest form possible, because it is the interpretation that requires the least cognitive effort of us.
 
+**Tags:** `visual-hierarchy` · `screen-review`  
 **Reference:** `references/law-of-pragnanz.md`
 
 **Use when:**
@@ -170,6 +201,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Law of Similarity
 > The human eye tends to perceive similar elements as a complete picture, shape, or group, even if those elements are separated.
 
+**Tags:** `visual-hierarchy` · `screen-review`  
 **Reference:** `references/law-of-similarity.md`
 
 **Use when:**
@@ -180,6 +212,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Law of Uniform Connectedness
 > Elements that are visually connected are perceived as more related than elements with no connection.
 
+**Tags:** `visual-hierarchy` · `screen-review`  
 **Reference:** `references/law-of-uniform-connectedness.md`
 
 **Use when:**
@@ -190,6 +223,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Mental Model
 > A compressed model based on what we think we know about a system and how it works.
 
+**Tags:** `user-research` · `information-architecture`  
 **Reference:** `references/mental-model.md`
 
 **Use when:**
@@ -200,6 +234,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Miller's Law
 > The average person can only keep 7 (plus or minus 2) items in their working memory.
 
+**Tags:** `information-architecture` · `screen-review`  
 **Reference:** `references/millers-law.md`
 
 **Use when:**
@@ -210,6 +245,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Occam's Razor
 > Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected.
 
+**Tags:** `screen-review` · `decision-making`  
 **Reference:** `references/occams-razor.md`
 
 **Use when:**
@@ -220,6 +256,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Paradox of the Active User
 > Users never read manuals but start using the software immediately.
 
+**Tags:** `onboarding` · `user-research`  
 **Reference:** `references/paradox-of-the-active-user.md`
 
 **Use when:**
@@ -230,6 +267,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Pareto Principle
 > The Pareto principle states that, for many events, roughly 80% of the effects come from 20% of the causes.
 
+**Tags:** `decision-making` · `user-research`  
 **Reference:** `references/pareto-principle.md`
 
 **Use when:**
@@ -240,6 +278,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Parkinson's Law
 > Any task will inflate until all of the available time is spent.
 
+**Tags:** `interaction-design` · `motivation`  
 **Reference:** `references/parkinsons-law.md`
 
 **Use when:**
@@ -250,6 +289,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Peak-End Rule
 > People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
 
+**Tags:** `user-research` · `motivation`  
 **Reference:** `references/peak-end-rule.md`
 
 **Use when:**
@@ -260,6 +300,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Postel's Law
 > Be liberal in what you accept, and conservative in what you send.
 
+**Tags:** `interaction-design` · `screen-review`  
 **Reference:** `references/postels-law.md`
 
 **Use when:**
@@ -270,6 +311,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Selective Attention
 > The process of focusing our attention only to a subset of stimuli in an environment — usually those related to our goals.
 
+**Tags:** `visual-hierarchy` · `user-research`  
 **Reference:** `references/selective-attention.md`
 
 **Use when:**
@@ -280,6 +322,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Serial Position Effect
 > Users have a propensity to best remember the first and last items in a series.
 
+**Tags:** `information-architecture` · `screen-review`  
 **Reference:** `references/serial-position-effect.md`
 
 **Use when:**
@@ -290,6 +333,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Tesler's Law
 > Tesler’s Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced.
 
+**Tags:** `interaction-design` · `decision-making`  
 **Reference:** `references/teslers-law.md`
 
 **Use when:**
@@ -300,6 +344,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Von Restorff Effect
 > The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered.
 
+**Tags:** `visual-hierarchy` · `screen-review`  
 **Reference:** `references/von-restorff-effect.md`
 
 **Use when:**
@@ -310,6 +355,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Working Memory
 > A cognitive system that temporarily holds and manipulates information needed to complete tasks.
 
+**Tags:** `interaction-design` · `screen-review`  
 **Reference:** `references/working-memory.md`
 
 **Use when:**
@@ -320,6 +366,7 @@ A complete reference to all 30 Laws of UX from [lawsofux.com](https://lawsofux.c
 ### Zeigarnik Effect
 > People remember uncompleted or interrupted tasks better than completed tasks.
 
+**Tags:** `motivation` · `interaction-design`  
 **Reference:** `references/zeigarnik-effect.md`
 
 **Use when:**
@@ -346,25 +393,28 @@ Many design problems involve several laws simultaneously. Common combinations:
 
 ---
 
-## Quick Cheat Sheet by Category
+## Quick Cheat Sheet by Tag
 
-**Cognitive Load & Memory**
-Cognitive Load · Miller's Law · Working Memory · Chunking · Selective Attention
+**screen-review**
+Aesthetic-Usability Effect · Cognitive Load · Fitts's Law · Occam's Razor · Postel's Law · Chunking · Miller's Law · Doherty Threshold · Von Restorff Effect · Law of Common Region · Law of Proximity · Law of Prägnanz · Law of Similarity · Law of Uniform Connectedness · Working Memory
 
-**Decision Making**
-Hick's Law · Choice Overload · Occam's Razor · Pareto Principle · Cognitive Bias
+**visual-hierarchy**
+Law of Common Region · Law of Proximity · Law of Prägnanz · Law of Similarity · Law of Uniform Connectedness · Selective Attention · Von Restorff Effect
 
-**Visual Perception (Gestalt)**
-Law of Proximity · Law of Similarity · Law of Common Region · Law of Uniform Connectedness · Law of Prägnanz
+**interaction-design**
+Doherty Threshold · Fitts's Law · Flow · Parkinson's Law · Postel's Law · Tesler's Law · Working Memory · Zeigarnik Effect
 
-**Motivation & Engagement**
-Goal-Gradient Effect · Zeigarnik Effect · Flow · Parkinson's Law · Peak-End Rule
+**information-architecture**
+Chunking · Choice Overload · Hick's Law · Jakob's Law · Mental Model · Miller's Law · Serial Position Effect
 
-**Interaction & Input**
-Fitts's Law · Postel's Law · Doherty Threshold · Tesler's Law
+**user-research**
+Aesthetic-Usability Effect · Cognitive Bias · Jakob's Law · Mental Model · Paradox of the Active User · Pareto Principle · Peak-End Rule · Selective Attention
 
-**Mental Models & Convention**
-Jakob's Law · Mental Model · Paradox of the Active User
+**onboarding**
+Goal-Gradient Effect · Paradox of the Active User
 
-**Attention & Memory**
-Von Restorff Effect · Serial Position Effect · Aesthetic-Usability Effect
+**motivation**
+Flow · Goal-Gradient Effect · Parkinson's Law · Peak-End Rule · Zeigarnik Effect
+
+**decision-making**
+Choice Overload · Cognitive Bias · Hick's Law · Occam's Razor · Pareto Principle · Tesler's Law

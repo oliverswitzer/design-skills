@@ -1,3 +1,11 @@
+---
+slug: chunking
+tags:
+  primary: information-architecture
+  secondary: screen-review
+source: https://lawsofux.com/chunking/
+---
+
 # Chunking
 
 > A process by which individual pieces of an information set are broken down and then grouped together in a meaningful whole.

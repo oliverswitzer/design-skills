@@ -1,3 +1,11 @@
+---
+slug: von-restorff-effect
+tags:
+  primary: visual-hierarchy
+  secondary: screen-review
+source: https://lawsofux.com/von-restorff-effect/
+---
+
 # Von Restorff Effect
 
 > The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered.

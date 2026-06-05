@@ -1,3 +1,11 @@
+---
+slug: zeigarnik-effect
+tags:
+  primary: motivation
+  secondary: interaction-design
+source: https://lawsofux.com/zeigarnik-effect/
+---
+
 # Zeigarnik Effect
 
 > People remember uncompleted or interrupted tasks better than completed tasks.

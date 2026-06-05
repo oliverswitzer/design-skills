@@ -1,3 +1,11 @@
+---
+slug: selective-attention
+tags:
+  primary: visual-hierarchy
+  secondary: user-research
+source: https://lawsofux.com/selective-attention/
+---
+
 # Selective Attention
 
 > The process of focusing our attention only to a subset of stimuli in an environment — usually those related to our goals.

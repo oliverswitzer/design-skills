@@ -1,3 +1,11 @@
+---
+slug: teslers-law
+tags:
+  primary: interaction-design
+  secondary: decision-making
+source: https://lawsofux.com/teslers-law/
+---
+
 # Tesler's Law
 
 > Tesler’s Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced.

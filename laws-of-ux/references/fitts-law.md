@@ -1,3 +1,11 @@
+---
+slug: fitts-law
+tags:
+  primary: screen-review
+  secondary: interaction-design
+source: https://lawsofux.com/fitts-law/
+---
+
 # Fitts's Law
 
 > The time to acquire a target is a function of the distance to and size of the target.

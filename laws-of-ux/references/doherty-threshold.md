@@ -1,3 +1,11 @@
+---
+slug: doherty-threshold
+tags:
+  primary: interaction-design
+  secondary: screen-review
+source: https://lawsofux.com/doherty-threshold/
+---
+
 # Doherty Threshold
 
 > Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other.

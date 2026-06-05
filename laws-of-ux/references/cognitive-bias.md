@@ -1,3 +1,11 @@
+---
+slug: cognitive-bias
+tags:
+  primary: user-research
+  secondary: decision-making
+source: https://lawsofux.com/cognitive-bias/
+---
+
 # Cognitive Bias
 
 > A systematic error of thinking or rationality in judgment that influence our perception of the world and our decision-making ability.

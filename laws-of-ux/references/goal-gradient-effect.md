@@ -1,3 +1,11 @@
+---
+slug: goal-gradient-effect
+tags:
+  primary: motivation
+  secondary: onboarding
+source: https://lawsofux.com/goal-gradient-effect/
+---
+
 # Goal-Gradient Effect
 
 > The tendency to approach a goal increases with proximity to the goal.

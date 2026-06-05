@@ -1,3 +1,11 @@
+---
+slug: millers-law
+tags:
+  primary: information-architecture
+  secondary: screen-review
+source: https://lawsofux.com/millers-law/
+---
+
 # Miller's Law
 
 > The average person can only keep 7 (plus or minus 2) items in their working memory.

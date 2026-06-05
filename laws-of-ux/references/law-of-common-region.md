@@ -1,3 +1,11 @@
+---
+slug: law-of-common-region
+tags:
+  primary: visual-hierarchy
+  secondary: screen-review
+source: https://lawsofux.com/law-of-common-region/
+---
+
 # Law of Common Region
 
 > Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.

@@ -1,3 +1,11 @@
+---
+slug: cognitive-load
+tags:
+  primary: screen-review
+  secondary: interaction-design
+source: https://lawsofux.com/cognitive-load/
+---
+
 # Cognitive Load
 
 > The amount of mental resources needed to understand and interact with an interface.

@@ -1,3 +1,11 @@
+---
+slug: pareto-principle
+tags:
+  primary: decision-making
+  secondary: user-research
+source: https://lawsofux.com/pareto-principle/
+---
+
 # Pareto Principle
 
 > The Pareto principle states that, for many events, roughly 80% of the effects come from 20% of the causes.
